@@ -1,4 +1,4 @@
-package sg.edu.np.mad.practical5
+package sg.edu.np.mad.madpractical5
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

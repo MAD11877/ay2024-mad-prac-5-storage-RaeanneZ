@@ -1,4 +1,4 @@
-package sg.edu.np.mad.practical5;
+package sg.edu.np.mad.madpractical5;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import sg.edu.np.mad.practical5.databinding.FragmentFirstBinding;
+import sg.edu.np.mad.madpractical5.databinding.FragmentFirstBinding;
 
 public class FirstFragment extends Fragment {
 
