@@ -13,6 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
+import sg.edu.np.mad.practical5.R;
+
 public class UserViewHolder extends RecyclerView.ViewHolder {
 
     TextView nameView, descriptionView;

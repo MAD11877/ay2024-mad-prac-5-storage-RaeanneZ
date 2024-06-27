@@ -8,6 +8,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import sg.edu.np.mad.practical5.R;
+
 public class UserAdapter extends RecyclerView.Adapter<UserViewHolder> {
     private List<User> userList;
 
@@ -17,7 +19,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserViewHolder> {
 
     public UserViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.activity_list, parent, false);
+                .inflate(R.layout.custom_activity_list, parent, false);
         UserViewHolder holder = new UserViewHolder(view);
         return new UserViewHolder(view);
     }
